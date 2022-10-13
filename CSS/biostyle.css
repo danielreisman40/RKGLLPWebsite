@@ -1,0 +1,157 @@
+/* This is the CSS file for the layout for the firm bios */
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    padding: 0 5%;
+    font-size: 240%;
+}
+
+#contactInfo {
+    text-align: center;
+}
+
+#contactInfo p {
+    font-size: 200%;
+}
+
+#contactInfo address {
+    font-size: 75%;
+}
+
+#mobile {
+   display: none;
+}
+
+#introduction {
+    font-size: 150%;
+    padding: 0 3%;
+}
+
+#introduction ul {
+    padding: 0 3%;
+}
+
+#content h2 {
+    padding: 0 5%;
+    font-size: 150%;
+}
+
+#content ul {
+    padding: 0 5%;
+}
+
+#content ul li {
+    font-size: 140%;
+    padding: 10px 0px;
+}
+
+#extraInfo ul {
+    padding: 0% 5%;
+}
+
+#extraInfo li {
+    font-size: 150%;
+    padding: 1% 0 0;
+}
+
+#extraInfo p {
+    font-size: 150%;
+    padding: 1% 5% 0;
+}
+
+#educationInfo p{
+    padding: 2% 5% 0;
+    font-size: 150%;
+}
+
+@media screen and (max-width: 1350px) {
+
+    main h1, main h2 {
+        padding: 0 5%;
+    }
+
+    #contactInfo {
+        font-size: 75%;
+    }
+
+    #introduction {
+        font-size: 140%;
+    }
+
+    #introduction ul {
+        padding: 0 5%;
+    }
+
+    #content ul {
+        padding: 0 5%;
+    }
+
+
+    #content li {
+        font-size: 130%;
+    }
+
+    #extraInfo ul {
+        padding: 0 5%;
+    }
+
+    #extraInfo li {
+        font-size: 130%;
+    }
+
+    #educationInfo p {
+        padding: 0 5%;
+        font-size: 130%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+    main h1, main h2 {
+        padding: 0 5%;
+    }
+
+    #contactInfo {
+        font-size: 75%;
+    }
+
+    #introduction {
+        font-size: 130%;
+    }
+
+    #introduction ul {
+        padding: 0 5%;
+    }
+
+    #introduction ul li {
+        padding: 1.5% 0 0;
+    }
+
+    #content ul {
+       padding: 0 5%;
+       margin: 0px;
+    }
+
+    #content ul li {
+        font-size: 130%;
+        padding: 2% 0 0;
+    }
+
+    #educationInfo p {
+        padding: 0 5%;
+    }
+
+    #computer {
+        display: none;
+    }
+
+    #mobile {
+        display: block;
+    }
+}

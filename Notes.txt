@@ -1,0 +1,99 @@
+/*
+        .row {
+            padding: 30px 150px 0px;
+            text-align: center;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        .column p {
+            font-size: 130%;
+            font-weight: bold;
+            padding: 0px 50px;
+        }
+
+        .row_2 {
+            padding: 0 325px;
+            text-align: center; 
+        }
+
+        .row_2::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .column_2 {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+
+        
+        .column_2 img {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        
+
+        .column_2 p {
+            font-size: 120%;
+            font-weight: bold;
+            padding: 0px 50px;
+        }
+
+        
+
+        @media screen and (max-width: 600px) {
+
+            .column {
+                width: 100%;
+            }
+
+            .column_2 {
+                width: 100%;
+            }
+
+            
+            .row {
+                padding: 0px 80px 0px;
+            }
+
+            .row_2 {
+                padding: 0px 80px 0px;
+            }
+            
+
+        }
+
+        */
+
+          <!---
+                    <li>"Panel: Ethical Considerations in settling Mass Torts," ABA Annual Spring CLE Meeting, Toxic Torts and Environmental Law Committee April 2017</li>
+                    <li>"Panel: The Defense Perspective," Texas Trial Lawyers Association Pharmaceutical and Medical Device Seminar, February 2017</li>
+                    <li>"Panel: Closure Mechanisms," Emory Law School Institute for Complex Litigation and Mass Claims, December 2016</li>
+                    <li>"Moderator, Panel: Coordinator:  Related Class Actions, Mass Actions and Parallel State Contit Litigation," Emory Law School Institute for Complex Litigation and Mass Claims, December 2016</li>
+                    <li>“Panel:  Application of Alternative Mass Tort Resolution Strategies to Asbestos Litigation,” Perrin Asbestos Litigation Conference:  A National Overview and Outlook, September 28, 2015</li>
+                    <li>“CPSA – Buyer Beware, Medical Devices” HB Litigation Conferences, Judicial Teleconference Series with Hon. Marina Corodemus, October 2011</li>
+                    <li>Ellen K. Reisman and Ethan P. Greene, “Ethical Issues in Class Action Settlements”, DRI Class Action Seminar, July 2011</li>
+                    <li>Ellen K. Reisman and Ethan P. Greene, “Ethical Limitations on Attempting to Prevent or Restrict an Attorney from Bringing Future Claims as part of a Settlement Agreement”, DRI Drug and Medical Device Conference, April 2008</li>
+                    <li>“Panel: Beyond Preemption: Navigating Your Way Through The Crucial FDA Regulatory Maze When Structuring A Products Liability Defense” ACI: 12thAnnual Drug and Medical Device Litigation, December 2007</li>
+                    <li>“Panel: Product Recall Readiness” 4thAnnual Drug and Medical Device Litigation Conference, November 2007</li>
+                    <li>“Panel: Compliance, Fraud & Abuse Mock Courtroom” 7thEmerging Growth Conference, AdvaMed Medical Technology Association, May 2007</li>
+                    <li>“Panel: Developing Your Settlement Position with Respect to Mass Tort Products Claims” ABA: Resolving Mass Tort Products Claims, March 2007</li>
+                    <li>“Panel: Settling the Big Case” ABA: Environmental, Mass Torts and Products Liability Litigation, January 2007</li>
+                    <li>“Panel: Making the Decision to Settle and Devising Novel End-Game Strategies” ACI: 11thAnnual Drug and Medical Device Litigation Conference, December 2006</li>
+                    <li>“Panel: Settlement Strategies for Big Time Litigation – When to Hold ‘Em and When to Fold ‘Em” ABA: Toxic Torts & Environmental Law Meeting – Science & The Law, April 2006</li>
+                    <li>“Panel: Balancing Expectations and Ethics in Class Settlements” ABA: 9thAnnual Institute on Class Actions, October 2005</li>
+                    -->

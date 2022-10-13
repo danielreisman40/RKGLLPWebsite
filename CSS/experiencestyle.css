@@ -1,0 +1,48 @@
+/*  This is the css file for the 'Our Experience' Page   */
+
+/* For the headers and titles  */
+main h1 {
+    padding: 1% 3% 0%;
+}
+
+/* Main content for the page */
+
+.content {
+    padding: 0 7%;
+}
+
+.content h2 {
+    font-style: italic;
+    padding: .75em 0em;
+}
+
+.content ul {
+    padding: 0 5%;
+    font-size: 135%;
+}
+
+.content ul li ul {
+    padding: 2% 5%;
+    font-size: 100%;
+}
+
+#otherList {
+    list-style-type: none;
+}
+
+#otherList li::before {
+    content: "-";
+    position: absolute;
+    margin-left: -20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .content ul li ul {
+        font-size: 80%;
+        padding: 5% 7% 0;
+    }
+
+}
+
+

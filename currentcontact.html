@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/549e613e81.js" crossorigin="anonymous"></script>
+    <title>Reisman Karron Green : Contact</title>
+</head>
+
+<style>
+
+    main h1 {
+        text-align: center;
+        font-size: 2.5em;
+        padding: 3% 0 0;
+    }
+
+    main p {
+        font-size: 2.5em;
+        padding: 1% 4%;
+    }
+
+    #mobile {
+        display: none;
+    }   
+
+    @media screen and (max-width: 1350px) {
+
+        main h1 {
+            font-size: 2em;
+        }
+
+        main p {
+            font-size: 1.5em;
+        }
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        main p {
+            font-size: 1.25em;
+        }
+
+        #mobile {
+            display: inline;
+        }
+
+        #computer {
+            display: none;
+        }
+
+    }
+
+</style>
+
+<body>
+
+    <header>
+
+        <span id="title">
+            <h2>Reisman Karron Greene LLP</h2>
+        </span>
+
+        <div class="topnav" id="myTopnav">
+
+            <a href="index.html" class="specific active">Home</a>
+            <a href="ourpractice.html" class="specific" >Our Practice</a>
+            <a href="aboutus.html" class="specific">About Us</a>
+            <a href="ourpeople.html" class="specific">Our People</a>
+            <a href="ourexperience.html" class="specific">Our Experience</a>
+            <a href="javascript:void(0);" class="specific">Contact</a>
+            <a href="disclaimer.html" class="specific">Disclaimer</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="navBarFunction()">&#9776;</a>
+
+        </div>
+
+
+    </header>
+
+    <div class="wrap">
+
+        <main style="padding-bottom: 339px;">
+            
+            <h1>Want to Contact Us?</h1>
+            
+            <p>If you have any questions or would like to schedule a meeting, send us an email <a href="mailto: ellen.reisman@rkgattorneys.com, ethan.greene@rkgattorneys.com">here</a> or call us at <span id="computer">(202) 695-7705</span><span id="mobile"><a href="tel:+1-202-695-7705">(202) 695-7705</a></span>. If you are interested in scheduling a mediation, please send us an email us <a href="mailto: ellen.reisman@rkgattorneys.com, ethan.greene@rkgattorneys.com">here</a>  with information about the case and potential dates. Currently, we are located at 1725 DeSales Street, NW, Suite 501, Washington DC 20036 </p>
+
+        </main>
+
+    </div>
+
+    <footer>
+
+      
+
+
+        <span id="siteseal">
+            <script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=HOGzhMz8IvNB03WqFc5nDW5R2nBIFjRaqCi0kzipBFyq0Cx418q03ez23Qgr"></script> 
+        </span>
+
+        
+        <p> Copyright ©2020 Reisman Karron Greene LLP </p>
+        
+        
+
+
+
+    </footer>
+
+    <script>
+        function navBarFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } 
+            else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
